@@ -14,7 +14,7 @@ for (x = 48; x <= 55; ++x)
 for (y = x + 1; y <= 56; ++y)
 {
 for (z = 50; z <= 57; ++z)
-if (x != y && y != z && x != z)
+if (x != y && y != z && x != z && x < y && y < z)
 {
 putchar(x);
 putchar(y);
