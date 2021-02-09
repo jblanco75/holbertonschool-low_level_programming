@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef HOLBERTON
+#define HOLBERTON
 
 /* func prototypes */
 int _putchar(char c);
@@ -17,4 +17,4 @@ int add(int n, int m);
 void print_to_98(int n);
 void print_times_table(int n);
 
-#endif /* _HOLBERTON_H_ */
+#endif 
