@@ -4,7 +4,7 @@
  * _isalpha - checks if alpha or not
  * Return: 0 if not alpha
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z')
 {
