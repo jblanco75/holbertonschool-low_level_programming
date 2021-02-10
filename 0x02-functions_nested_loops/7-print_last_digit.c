@@ -11,10 +11,12 @@ f = n % 10;
 if (f < 0)
 {
 f = f * (-1);
-_putchar(f);
+_putchar(f + '0');
+return (f);
 }
 else
 {
-_putchar(f);
+_putchar(f + '0');
+return (f);
 }
 }
