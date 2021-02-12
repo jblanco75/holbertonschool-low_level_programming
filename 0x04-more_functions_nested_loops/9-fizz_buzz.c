@@ -3,7 +3,7 @@
  * main - prints FizzBuzz
  * Return: chars and numbers
  */
-int main()
+int main(void)
 {
 	int n;
 
@@ -25,7 +25,6 @@ int main()
 		{
 			printf("%d ", n);
 		}
-		
 	}
 	printf("\n");
 	return (0);
