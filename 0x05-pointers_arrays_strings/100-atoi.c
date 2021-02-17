@@ -24,6 +24,7 @@ int _atoi(char *s)
 			{
 				x = x * -1;
 			}
+		}
 	}
 	return (res * x);
 }
