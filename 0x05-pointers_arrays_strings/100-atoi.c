@@ -20,10 +20,10 @@ int _atoi(char *s)
 			{
 				break;
 			}
-			else if (s[i] == '-')
-			{
-				x = x * -1;
-			}
+		}
+		else if (s[i] == '-')
+		{
+			x = x * -1;
 		}
 	}
 	return (res * x);
