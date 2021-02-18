@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strcat - lame copy of atoi
+ * _strcat - lame copy of strncat
  * @dest: variable to concat
  * @src: variable source
  * Return: string concatenated
