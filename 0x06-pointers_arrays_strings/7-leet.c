@@ -1,9 +1,11 @@
 #include "holberton.h"
+
 /**
  * leet - returns an array switched
  * @c: array
  * Return: array switched
  */
+
 char *leet(char *c)
 {
 	int i, j;
