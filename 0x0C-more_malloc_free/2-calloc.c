@@ -32,12 +32,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	total = nmemb * size;
 
+	arr = malloc(total);
+
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 	if (arr == 0)
 		return (NULL);
-
-	arr = malloc(total);
 
 	if (arr != 0)
 	{
