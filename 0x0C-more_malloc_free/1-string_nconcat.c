@@ -27,7 +27,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i = 0, j = 0;
 	char *s3;
-	int p;
+	unsigned int p;
 	unsigned int len_s1, len_s2;
 
 	if (s1 == 0)
@@ -43,7 +43,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	p = len_s1 + n;
 
-	s3 = malloc(sizeof(char) * (p + 1));
+	s3 = malloc(sizeof(*s3) * (p + 1));
 
 	if (s3 == 0)
 		return (NULL);
