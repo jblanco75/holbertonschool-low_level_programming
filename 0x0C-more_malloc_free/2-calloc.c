@@ -10,7 +10,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *arr;
 	unsigned int total;
-	int i;
+	unsigned int i;
 
 	total = nmemb * size;
 
