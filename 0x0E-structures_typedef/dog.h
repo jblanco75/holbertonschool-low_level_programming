@@ -3,17 +3,18 @@
 /**
  * struct dog - Struct to define a dog
  * @name: name of dog
- * @owner: owner's name 
+ * @owner: owner's name
  * @age: years old
  *
  * Description: Structure dog.
  */
-typedef struct dog {
+typedef struct dog
+{
 
 	char *name;
 	char *owner;
 	float age;
-}dog;
+} dog;
 
 
 #endif
