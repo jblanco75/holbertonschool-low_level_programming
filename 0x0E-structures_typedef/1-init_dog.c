@@ -7,7 +7,7 @@
  * @owner: owner's name
  * @age: years old
  *
- * Description: Structure dog.
+ * Description: Structure var init
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
