@@ -1,5 +1,5 @@
-#ifndef _DOG_H_
-#define _DOG_H_
+#ifndef _POINT_H_
+#define _POINT_H_
 
 /**
  * struct Point - Struct to define a point
