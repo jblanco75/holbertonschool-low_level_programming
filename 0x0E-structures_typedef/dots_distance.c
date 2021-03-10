@@ -3,24 +3,6 @@
 #include <stdlib.h>
 #include "point.h"
 /**
- * point - defines new point
- * @x: coord x axis
- * @y: coord y axis
- *
- * Return: point struct
- */
-/*struct Point *point(double x, double y)
-{
-	struct Point *point;
-
-	point = malloc(sizeof(struct Point));
-	if (point == NULL)
-		return (NULL);
-	point->x = x;
-	point->y = y;
-	return (point);
-}*/
-/**
  * calc_distance - calculates distance between 2 points
  * @point1: point 1
  * @point2: point 2
@@ -40,7 +22,6 @@ double calc_distance(struct Point *point1, struct Point *point2)
  * main - Returns distance between two points
  * @argc: count
  * @argv: arr
- *
  * Return: Always 0
  **/
 
