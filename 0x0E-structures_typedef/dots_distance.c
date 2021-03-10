@@ -3,14 +3,13 @@
 #include <stdlib.h>
 #include "point.h"
 /**
- * new_point - defines new point
+ * point - defines new point
  * @x: coord x axis
  * @y: coord y axis
  *
  * Return: point struct
  */
-
-struct Point *new_point(double *x, double *y)
+/*struct Point *point(double x, double y)
 {
 	struct Point *point;
 
@@ -20,8 +19,13 @@ struct Point *new_point(double *x, double *y)
 	point->x = x;
 	point->y = y;
 	return (point);
-}
-
+}*/
+/**
+ * calc_distance - calculates distance between 2 points
+ * @point1: point 1
+ * @point2: point 2
+ * Return: calculated distance
+ */
 double calc_distance(struct Point *point1, struct Point *point2)
 {
 	double px, py;
@@ -31,10 +35,6 @@ double calc_distance(struct Point *point1, struct Point *point2)
 
 	return (sqrt((px * px) + (py * py)));
 }
-
-
-
-
 
 /**
  * main - Returns distance between two points
@@ -51,15 +51,19 @@ int main(int argc, char **argv)
 	struct Point *point1;
 	struct Point *point2;
 
-	point1[] = (atof(argv[0]), atof(argv[1]));
-	point2[] = (atof(argv[2]), atof(argv[3]));
-       
+	point1 = malloc(sizeof(struct Point));
+	point2 = malloc(sizeof(struct Point));
 
-	if (argv[1] != '\0' && argv[2] != '\0')
+	  point1->x = atof(argv[1]);
+	  point1->y = atof(argv[2]);
+	  point2->x = atof(argv[3]);
+	  point2->y = atof(argv[4]);
+
+	if (argv[1] != '\0' && argv[2] != '\0' && argv[3] != '\0' && argv[4] != '\0')
 	{
 		for (i = 1; i < argc; i++)
 		{
-			distance = calc_distance();
+			distance = calc_distance(point1, point2);
 		}
 		printf("%f\n", distance);
 	}
