@@ -2,8 +2,8 @@
 /**
  * op_add - adds two ints
  * @a: int a
- * @f: int b
- * Returns: sum of two ints
+ * @b: int b
+ * Return: sum of two ints
  */
 int op_add(int a, int b)
 {
@@ -12,8 +12,8 @@ int op_add(int a, int b)
 /**
  * op_sub - substracts two ints
  * @a: int a
- * @f: int b
- * Returns: substraction of two ints
+ * @b: int b
+ * Return: substraction of two ints
  */
 int op_sub(int a, int b)
 {
@@ -22,8 +22,8 @@ int op_sub(int a, int b)
 /**
  * op_mul - multiplicates two ints
  * @a: int a
- * @f: int b
- * Returns: product of two ints
+ * @b: int b
+ * Return: product of two ints
  */
 int op_mul(int a, int b)
 {
@@ -32,8 +32,8 @@ int op_mul(int a, int b)
 /**
  * op_div - divide two ints
  * @a: int a
- * @f: int b
- * Returns: division of two ints
+ * @b: int b
+ * Return: division of two ints
  */
 int op_div(int a, int b)
 {
@@ -42,8 +42,8 @@ int op_div(int a, int b)
 /**
  * op_mod - gets module of two ints
  * @a: int a
- * @f: int b
- * Returns: module
+ * @b: int b
+ * Return: module
  */
 int op_mod(int a, int b)
 {
