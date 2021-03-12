@@ -23,7 +23,7 @@ void p_string(va_list args);
 typedef struct tp_str
 {
 	char *tp;
-	void (*f)();
+	void (*f)(va_list);
 } tp_s;
 
 #endif
