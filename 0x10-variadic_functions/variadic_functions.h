@@ -16,7 +16,7 @@ void p_float(va_list args);
 void p_string(va_list args);
 
 /**
- * struct fo - structure
+ * struct tp_str - structure
  * @tp: char name for print
  * @f: function to print
  */
