@@ -5,7 +5,7 @@
  * struct Point - Struct to define a point
  * @x: coord x axis
  * @y: coord y axis
- *
+ * @z: coord z axis
  * Description: Point
  */
 struct Point
