@@ -20,13 +20,10 @@ void p_string(va_list args);
  * @tp: char name for print
  * @f: function to print
  */
-typedef struct fo
+typedef struct tp_str
 {
 	char *tp;
 	void (*f)();
 } tp_s;
-
-
-
 
 #endif
