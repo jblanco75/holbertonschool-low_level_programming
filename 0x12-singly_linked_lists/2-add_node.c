@@ -22,14 +22,12 @@ list_t *add_node(list_t **head, const char *str)
 
 	if (!newel)
 	{
-		newel->str = strdup(str);
-		newel->len = i;
-		newel->next = *head;
-		*head = newel;
-	}
-	else
-	{
 		return (NULL);
 	}
+	newel->str = strdup(str);
+	newel->len = i;
+	newel->next = *head;
+	*head = newel;
+
 	return (newel);
 }
