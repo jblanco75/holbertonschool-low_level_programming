@@ -18,7 +18,7 @@ size_t print_listint(const listint_t *h)
 	{
 		if (s->n == '\0')
 		{
-			printf("[0] (nil)\n");
+			printf("0\n");
 		}
 		else
 		{
