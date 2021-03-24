@@ -7,7 +7,7 @@
  */
 int sum_listint(listint_t *head)
 {
-	int node_sum;
+	int node_sum = 0;
 
 	if (!head)
 		return (0);
