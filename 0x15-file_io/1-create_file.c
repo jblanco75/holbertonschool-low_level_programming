@@ -21,7 +21,7 @@ int create_file(const char *filename, char *text_content)
 
 	if (text_content == NULL)
 	{
-		write(of, text_content, i);
+		write(of, " ", i);
 	}
 	close(of);
 	return (1);
