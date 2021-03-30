@@ -10,7 +10,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int of, i;
+	int of, i = 0;
 
 	if (filename == NULL)
 		return (-1);
@@ -23,10 +23,7 @@ int create_file(const char *filename, char *text_content)
 			i++;
 	}
 
-	if (text_content == NULL)
-	{
-		write(of, text_content, i);
-	}
+	write(of, text_content, i);
 	close(of);
 	return (1);
 }
