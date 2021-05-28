@@ -9,29 +9,29 @@
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	hash_node_t *new, *tmp;
+	hash_node_t *new, *tester;
 	unsigned int index;
 
 	if (!ht || !key || !value)
 		return (0);
 
 	index = key_index((unsigned char *)key, ht->size);
-	tmp = ht->array[index];
+	tester = ht->array[index];
 
-	while (tmp)
+	while (tester)
 	{
-		if (strcmp(key, tmp->key) == 0)
+		if (strcmp(key, tester->key) == 0)
 		{
-			free(tmp->value);
-			tmp->value = strdup(value);
+			free(tester->value);
+			tester->value = strdup(value);
 			return (1);
 		}
-		tmp = tmp->next;
+		tester = tester->next;
 	}
 	new = malloc(sizeof(hash_node_t));
 
 	if (!new)
-		return (NULL);
+		return (0);
 
 	new->key = strdup(key);
 	new->value = strdup(value);
