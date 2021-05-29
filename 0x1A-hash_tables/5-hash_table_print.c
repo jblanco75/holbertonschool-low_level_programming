@@ -1,10 +1,10 @@
 #include "hash_tables.h"
 /**
- * hash_table_print - This function prints a hash table.
- * @ht: The Hash table.
+ * hash_table_print - Absurd function to print this ugly hash table.
+ * @ht: Hash table.
  *
  * Return: Nothing.
- **/
+ */
 void hash_table_print(const hash_table_t *ht)
 {
 	unsigned int i;
