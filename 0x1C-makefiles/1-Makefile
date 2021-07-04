@@ -1,0 +1,4 @@
+CC = gcc
+SRC = holberton.c main.c m.h
+
+all: $(CC) $(SRC) -o holberton
