@@ -3,6 +3,8 @@
 
 
 def island_perimeter(grid):
+    """Function implementation
+    for perimeter calculation in a square matrix"""
     perimeter = 0
     for x in range(len(grid)):
         for y in range(len(grid[x])):
