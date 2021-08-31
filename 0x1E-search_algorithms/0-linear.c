@@ -1,4 +1,4 @@
-#inlude "search_algos.h"
+#include "search_algos.h"
 /**
  * linear_search - function to implement linear search algorithm
  * @array: pointer to the first element of the array to search in
